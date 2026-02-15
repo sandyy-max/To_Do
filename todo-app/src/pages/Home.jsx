@@ -6,7 +6,7 @@ export default function Home() {
   const { state, dispatch } = useContext(TodoContext);
 
   return (
-    <div className="min-h-screen bg-[#0f0f0f] py-10 px-6 max-w-5xl mx-auto">
+    <div className="min-h-screen bg-white/50 rounded-3xl py-10 px-6 max-w-5xl mx-auto">
     
 
   <h1 className="text-4xl font-bold text-red-900 mb-6 text-center">

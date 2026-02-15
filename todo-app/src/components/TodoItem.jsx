@@ -8,7 +8,7 @@ export default function TodoItem({ todo }) {
   return (
   <div
     className={`p-6 rounded-2xl border flex justify-between items-center
-    bg-[#161616] border-[#2a2a2a]
+    bg-[#493e41] border-[#2a2a2a]
     transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-red-900/20`}
   >
     <div>
@@ -58,7 +58,7 @@ export default function TodoItem({ todo }) {
         onClick={() =>
           dispatch({ type: "DELETE_TODO", payload: todo.id })
         }
-        className="px-4 py-2 rounded-lg text-sm font-semibold bg-[#2a2a2a] text-gray-400 hover:bg-red-950 hover:text-white transition-all duration-300"
+        className="px-4 py-2 rounded-lg text-sm font-semibold bg-[#931515] text-gray-400 hover:bg-red-950 hover:text-white transition-all duration-300"
       >
         Delete
       </button>
