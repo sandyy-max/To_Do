@@ -6,7 +6,9 @@ export default function Home() {
   const { state, dispatch } = useContext(TodoContext);
 
   return (
-    <div className="bg-pink-50 min-h-screen py-10 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <div className="min-h-screen bg-[#0f0f0f] py-10 px-6 max-w-5xl mx-auto">
+    
+
   <h1 className="text-4xl font-bold text-red-900 mb-6 text-center">
     Your Tasks
   </h1>
