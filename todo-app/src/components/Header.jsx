@@ -11,11 +11,11 @@ export default function Header() {
     }`;
 
   return (
-    <header className=" bg-pink-100 border-b sticky top-0 z-50">
+    <header className=" bg-pink-100/40 border-b sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
-        <h2 className="text-2xl font-bold tracking-wide text-red-700">
+        <h2 className="text-2xl font-bold tracking-wide text-red-900">
           Task Handler
         </h2>
 

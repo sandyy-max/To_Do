@@ -7,7 +7,13 @@ import EditTodo from "./pages/EditTodo";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-pink-50">
+      <div
+  className="min-h-screen"
+  style={{
+    background: "radial-gradient(circle, rgba(227, 125, 125, 0.5) 5%, rgba(214, 79, 79, 0.5) 56%, rgba(252, 70, 125, 0.5) 100%)"
+  }}
+>
+
         <Header />
         <div className="max-w-3xl mx-auto px-6 py-8">
           <Routes>
