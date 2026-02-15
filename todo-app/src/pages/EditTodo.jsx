@@ -37,8 +37,8 @@ export default function EditTodo() {
   };
 
   return (
-    <div className="bg-pink-50 min-h-screen py-10 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
-      <div className="bg-white p-6 rounded-xl shadow-lg">
+    <div className="bg-pink-100/30 rounded-3xl min-h-screen py-10 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
+      <div className="bg-pink-50/60 p-6 rounded-xl shadow-lg">
         <h1 className="text-2xl font-bold text-red-900 mb-6 text-center">
           Edit Task
         </h1>
